@@ -248,6 +248,10 @@ h3{
     font-size: 2rem;
 }
 
+form{
+    height: 25rem;
+}
+
 
 form label{
     display: block;
@@ -294,6 +298,8 @@ input,input:focus,textarea,textarea:focus{
     width: 100%;
     color: black;
 }
+
+
 
 /*termina el area de contactos*/
 
@@ -345,5 +351,20 @@ i.fa-solid.fa-user-lock.fa-lg:hover {
     transform: scale(1.25);
     color: aliceblue;
 }
+
+
+.card-body{
+    background: radial-gradient(rgb(0, 204, 255), black);
+    color:white ;
+}
+
+svg{
+    background: rgb(0, 204, 255);
+}
+
+
+
+
+
 
 

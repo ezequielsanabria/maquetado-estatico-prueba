@@ -55,52 +55,52 @@
             <div class="row mt-3 g-2 g-lg-3">
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#imagenModal">
-                    <i class="fa-solid fa-image f-2x1" type="button"><br>imagen</i>
+                    <i class="fa-solid fa-image f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#perfilModal">
-                 <i class="fa-solid fa-user f-2x1" type="button"><br>nombre</i>
+                 <i class="fa-solid fa-user f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#acercaDeModal">
-                    <i class="fa-solid fa-plus f-2x1" type="button"><br>acerca de</i>
+                    <i class="fa-solid fa-plus f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
             </div>
             <div class="row mt-3 g-2 g-lg-3">
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#trabajosModal">
-                    <i class="fa-solid fa-briefcase f-2x1" type="button"><br>trabajo</i>
+                    <i class="fa-solid fa-briefcase f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
                 <div class="col">
-                    <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#estudiosModal">
-                    <i class="fa-solid fa-graduation-cap f-2x1" type="button"><br>educacion</i>
+                    <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#skillsModal">
+                    <i class="fa-solid fa-dumbbell  f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
            <div class="col">
                 <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal"
-                        data-bs-target="#skillsModal">
-                        <i class="fa-solid fa-dumbbell f-2x1" type="button"><br>skill</i>
+                        data-bs-target="#estudiosModal">
+                        <i class="fa-solid fa-graduation-cap f-2x1" type="button"><br></i>
                     </button></div>
             </div>
             </div> 
             <div class="row mt-3 g-2 g-lg-3">
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#proyectosModal">
-                    <i class="fa-solid fa-folder f-2x1" type="button"><br>proyectos</i>
+                    <i class="fa-solid fa-folder f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#comentariosModal">
-                    <i class="fa-solid fa-comment f-2x1" type="button"><br>comentarios</i>
+                    <i class="fa-solid fa-comment f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
                 <div class="col">
                     <div class=" info"> <button type="button" class="btn btn-secondary btn-lg  p-5 m-2" data-bs-toggle="modal" data-bs-target="#redesModal">
-                    <i class="fa-solid fa-share-nodes f-2x1" type="button"><br> redes... </i>
+                    <i class="fa-solid fa-share-nodes f-2x1" type="button"><br></i>
                 </button></div>
                 </div>
             </div>
@@ -149,8 +149,12 @@
                     <!--formulario-->
                     <form>
                     <div class="mb-3">
-                        <label for="formFileMultiple" class="form-label"><b>Acerca De Mi</b></label>
-                        <textarea class="form-control" id="exampleInputPassword1"></textarea>
+                        <label for="formFileMultiple" class="form-label"><b>Nombre</b></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label"><b>Apellido</b></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     </form>
                     <!--fin del formulario-->
@@ -175,15 +179,11 @@
                 <div class="modal-body">
     
                     <!--formulario-->
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                    </form>
+                <form>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label"><b>Acerca De Mi</b></label>
+                        <textarea class="form-control" id="exampleInputPassword1"></textarea>
+                    </div>
                     <!--fin del formulario-->
                 </div>
                 <div class="modal-footer">
@@ -228,12 +228,12 @@
 </div>
     <!--termina el modal-->
 
-    <!-- Modal-estudios -->
-    <div class="modal fade" id="estudiosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal-skills-->
+    <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-login" id="exampleModalLabel">Estudios</h5>
+                    <h5 class="modal-login" id="exampleModalLabel">skills</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -259,12 +259,12 @@
 </div>
     <!--termina el modal-->
 
-    <!-- Modal-skills -->
-    <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal-estudios -->
+    <div class="modal fade" id="estudiosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-login" id="exampleModalLabel">Skills</h5>
+                    <h5 class="modal-login" id="exampleModalLabel">Estudios</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
