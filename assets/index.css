@@ -37,10 +37,26 @@ video{
 
 /*comienzo de nav-bar*/
 
+#barra-nav{
+    
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+   
+}
+
+main{
+    
+    z-index: 0;
+}
+#navbar{
+    position: sticky;
+}
 #navbar div{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
+
 
 #navbar button{
     background-color: transparent;
@@ -61,6 +77,12 @@ video{
     padding: 0.2rem 0.7rem;
     transition: .5s;
 
+}
+
+
+
+.container-fluid{
+    background-color: black;
 }
 
 
@@ -353,10 +375,12 @@ i.fa-solid.fa-user-lock.fa-lg:hover {
 }
 
 
-.card-body{
+.Proyectos.card-body{
     background: radial-gradient(rgb(0, 204, 255), black);
     color:white ;
 }
+
+
 
 svg{
     background: rgb(0, 204, 255);
