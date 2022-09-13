@@ -2,9 +2,13 @@
     font-family:  serif;
 }
 
-#root{
+body, html{
+   overflow:var(--bs-list-group-border-width);
+}
+body{
     text-align: center;
     background-color: rgb(255, 255, 255);
+   
 }
 
 header{
@@ -18,20 +22,19 @@ video{
    min-height: 100%;
     min-width: 100%;
     opacity: .3;
-    position: absolute;
+    position:absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 0;
+  
 
 }
 
 
 
 
-
-
 /*imagen-de-perfil*/
 .circle{
+    position:relative;
     border-radius: 50%;
 }
 
@@ -115,10 +118,9 @@ i.fa-solid.fa-user:hover {
 .menu li a:hover{
     color: black;
     background-color: white;
-    font-size: 2rem;
-    transition: .2s;
-    border-radius: 2rem;
-    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    padding: .1rem;
 }
 
 
@@ -129,8 +131,8 @@ i.fa-solid.fa-user:hover {
 
 .caja-padre {
     width: 40%;
-    min-width: 590px;
-    display: block;
+    min-width: 50%;
+    display:grid;
     transform: translate(-50%, -50%);
     margin-left: 30%;
     top: 30%;
@@ -359,7 +361,7 @@ i.fa-brands.fa-instagram.fa-lg:hover {
     color: aliceblue;
 }
 
-i.fa-solid.fa-envelope:hover {
+i.fa-brands.fa-line:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.25);
     color: aliceblue;
